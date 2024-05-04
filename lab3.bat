@@ -9,6 +9,6 @@ attrib +h "Скрытая папка"
 xcopy /?
 xcopy /? > "Не скрытая папка\copyhelp.txt"
 xcopy "Не скрытая папка\copyhelp.txt" "Скрытая папка\copied_copyhelp.txt"
-echo @echo off > "Лабораторные\Группа\ФИО\batch\open_report.bat"
+echo "Лабораторные\Группа\ФИО\batch\open_report.bat"
 echo start notepad "Скрытая папка\copied_copyhelp.txt" >> "Лабораторные\Группа\ФИО\batch\open_report.bat"
 echo pause >> "Лабораторные\Группа\ФИО\batch\open_report.bat"
